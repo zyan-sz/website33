@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sakan - Student Housing</title>
+  <link rel="stylesheet" href="sa.css">
+  <link href="https://unpkg.com/lucide-web/dist/umd/lucide.css" rel="stylesheet">
+</head>
+<body>
+  <div class="min-h-screen bg-white">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-sm">
+      <div class="nav-container">
+        <div class="logo">
+          <i data-lucide="building-2" class="logo-icon"></i>
+          <span class="logo-text">Sakan</span>
+        </div>
+        <div class="nav-buttons">
+          <button class="nav-link">List Property</button>
+          <button class="nav-link">Dashboard</button>
+          <button class="btn-primary">Sign In</button>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero">
+      <div class="hero-image">
+        <img src="https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80" alt="Student apartment">
+        <div class="overlay"></div>
+      </div>
+
+      <div class="hero-content">
+        <div class="text-center">
+          <h1>Find Your Perfect Student Home</h1>
+          <p class="hero-subtitle">Discover affordable apartments near your university, tailored for student life.</p>
+        </div>
+
+        <!-- Search Bar -->
+        <div class="search-container">
+          <div class="search-bar">
+            <div class="search-input">
+              <i data-lucide="map-pin" class="input-icon"></i>
+              <input type="text" placeholder="Location">
+            </div>
+            <div class="search-input">
+              <i data-lucide="users" class="input-icon"></i>
+              <select>
+                <option>Number of roommates</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3+</option>
+              </select>
+            </div>
+            <button class="btn-primary search-btn">
+              <i data-lucide="search"></i>
+              Search
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Featured Listings -->
+    <div class="section">
+      <div class="section-header">
+        <h2>Featured Listings</h2>
+        <button class="view-all">
+          View all
+          <i data-lucide="arrow-right"></i>
+        </button>
+      </div>
+
+      <div class="listings-grid">
+        <div class="listing-card">
+          <img src="https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80" alt="Apartment">
+          <div class="listing-content">
+            <div class="listing-header">
+              <div>
+                <h3>Modern Studio Apartment</h3>
+                <p>Near University Campus</p>
+              </div>
+              <span class="price-tag">$800/mo</span>
+            </div>
+            <div class="listing-details">
+              <div class="detail">
+                <i data-lucide="users"></i>
+                <span>2-3 roommates</span>
+              </div>
+              <div class="detail">
+                <i data-lucide="map-pin"></i>
+                <span>1.2 km from campus</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="listing-card">
+          <img src="https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80" alt="Apartment">
+          <div class="listing-content">
+            <div class="listing-header">
+              <div>
+                <h3>Modern Studio Apartment</h3>
+                <p>Near University Campus</p>
+              </div>
+              <span class="price-tag">$800/mo</span>
+            </div>
+            <div class="listing-details">
+              <div class="detail">
+                <i data-lucide="users"></i>
+                <span>2-3 roommates</span>
+              </div>
+              <div class="detail">
+                <i data-lucide="map-pin"></i>
+                <span>1.2 km from campus</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="listing-card">
+          <img src="https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80" alt="Apartment">
+          <div class="listing-content">
+            <div class="listing-header">
+              <div>
+                <h3>Modern Studio Apartment</h3>
+                <p>Near University Campus</p>
+              </div>
+              <span class="price-tag">$800/mo</span>
+            </div>
+            <div class="listing-details">
+              <div class="detail">
+                <i data-lucide="users"></i>
+                <span>2-3 roommates</span>
+              </div>
+              <div class="detail">
+                <i data-lucide="map-pin"></i>
+                <span>1.2 km from campus</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Features Section -->
+    <div class="features">
+      <div class="features-content">
+        <div class="text-center">
+          <h2>Why Choose Sakan?</h2>
+          <p class="features-subtitle">We make finding student accommodation simple and stress-free</p>
+        </div>
+
+        <div class="features-grid">
+          <div class="feature-card">
+            <h3>Verified Listings</h3>
+            <p>All properties are verified to ensure quality and safety</p>
+          </div>
+          <div class="feature-card">
+            <h3>Student-Friendly</h3>
+            <p>Properties specifically chosen for student needs and budgets</p>
+          </div>
+          <div class="feature-card">
+            <h3>Easy Communication</h3>
+            <p>Direct messaging with property owners and potential roommates</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-grid">
+          <div class="footer-section">
+            <h3>About Sakan</h3>
+            <ul class="footer-links">
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">How It Works</a></li>
+              <li><a href="#">Testimonials</a></li>
+              <li><a href="#">Careers</a></li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h3>Support</h3>
+            <ul class="footer-links">
+              <li><a href="#">Help Center</a></li>
+              <li><a href="#">Safety Guide</a></li>
+              <li><a href="#">Terms of Service</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h3>Contact Us</h3>
+            <ul class="footer-links">
+              <li><a href="mailto:contact@sakan.com">contact@sakan.com</a></li>
+              <li><a href="tel:+1234567890">+1 (234) 567-890</a></li>
+            </ul>
+            <div class="social-links">
+              <a href="#" class="social-icon"><i data-lucide="facebook"></i></a>
+              <a href="#" class="social-icon"><i data-lucide="twitter"></i></a>
+              <a href="#" class="social-icon"><i data-lucide="instagram"></i></a>
+              <a href="#" class="social-icon"><i data-lucide="linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2024 Sakan. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="https://unpkg.com/lucide-web/dist/umd/lucide.js"></script>
+  <script>
+    lucide.createIcons();
+  </script>
+</body>
+</html>
